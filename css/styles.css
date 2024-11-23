@@ -503,5 +503,77 @@ p {
   background-color: #fcfcfc;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
   transform: translate(-50%, -50%);
-  
+  padding: 40px;
+}
+
+.modal-btn {
+
+position: absolute;
+border-radius: 50px;
+top: 24px;
+right: 24px;
+width: 24px;
+height: 24px;
+background-color: #E7E9FC;
+
+}
+.modal-caption {
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+.modal-form {
+
+}
+.modal-form-field {
+margin-bottom: 8px;
+}
+.modal-form-label {
+display: block;
+margin-bottom: 4px;
+font-size: 12px;
+line-height: 1.16667;
+letter-spacing: 0.04em;
+color: #8e8f99;
+
+}
+.modal-form-wrapper {
+  position: relative;
+}
+
+.modal-form-input {
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  width: 100%;
+  height: 40px;
+  padding: 8px 16px;
+  outline: transparent;
+  padding-left: 38px;
+}
+.modal-form-input-comment {
+font-size: 12px;
+line-height: 1.16667;
+letter-spacing: 0.04em;
+padding-left: 16px;
+height: 120px;
+}
+.modal-form-input:focus {
+  border: 1px solid #4d5ae5;
+}
+.modal-form-input:focus + .icon-modal {
+  fill: #4d5ae5;
+}
+.icon-modal {
+position: absolute;
+top: 50%;
+left: 16px;
+transform: translateY(-50%);
+pointer-events: none;
+}
+
+.comment {
+  margin-right: 25px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+border-radius: 4px;
+width: 360px;
+height: 120px;
 }
