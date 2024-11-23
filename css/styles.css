@@ -604,10 +604,9 @@ p {
 .modal-form-message::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
-input[type='checkbox']:checked
-  + .modal-form-policy-text
-  .modal-form-checkbox {
-    background-color:  #4d5ae5;
+input[type='checkbox']:checked + .modal-form-policy-text .modal-form-checkbox {
+  background-color: #4d5ae5;
+  border-color: #4d5ae5;
 }
 .modal-form-policy-text {
   font-size: 12px;
@@ -621,12 +620,17 @@ input[type='checkbox']:checked
   align-items: center;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  margin-right: 8px;
   cursor: pointer;
+  margin-right: 8px;
 }
 .modal-form-checkbox-icon {
 }
+
 .modal-form-policy-link {
+  line-height: 1.33333;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
   line-height: 1.33333;
   text-decoration: underline;
   text-decoration-skip-ink: none;
