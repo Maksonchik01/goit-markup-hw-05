@@ -402,7 +402,8 @@ p {
 }
 .footer-wrapper {
   display: flex;
-  align-items: baseline;
+ 
+  
 }
 
 .title-footer {
@@ -468,47 +469,74 @@ p {
 .icon {
   fill: #f4f4fd;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
 }
 
 .icon-footer {
   width: 40px;
   height: 40px;
 }
-.modal-footer-text {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #fff;
 
-}
 .modal-footer-wrapper {
-  position: relative;
-}
-.modal-footer {
 
 }
-.modal-footer-text {
-  margin-top: 16px;
-  display: flex;
-justify-content: center;
-  align-items: center;
+.modal-footer-input {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  
+}
+
+.modal-footer {
+  position: absolute;
+margin-left: 80px;
+}
+.modal-footer-input {
   border: 1px solid #fff;
 border-radius: 4px;
 width: 264px;
 height: 40px;
 background: #2e2f42;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-resize: none;
+margin-right: 24px;
+margin-top: 16px;
+list-style: none;
+margin-left: 80px;
 }
 .modal-footer:focus {
   border: 1px solid #4d5ae5;
 }
+.modal-footer-input-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ margin-top: 16px;
+
+}
 .button-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
+  margin-right: 16px;
 padding: 8px 24px;
 width: 165px;
 height: 40px;
+background: #4d5ae5;
+color: #fff;
+cursor: pointer;
+}
+.button-footer svg {
+  margin-left: 8px;
+}
+.icon-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 20px;
 }
 .backdrop {
   position: fixed;
@@ -572,8 +600,7 @@ height: 40px;
   margin-top: 24px;
   margin-bottom: 40px;
 }
-.modal-form {
-}
+
 .modal-form-field {
   margin-bottom: 8px;
 }
