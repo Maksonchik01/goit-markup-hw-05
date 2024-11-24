@@ -490,9 +490,11 @@ p {
 }
 .modal-footer {
   margin-top: 16px;
+  
 }
 
 .modal-footer-input {
+ 
   width: 264px;
   height: 40px;
   border: 1px solid #fff;
@@ -508,6 +510,7 @@ p {
   margin-right: 24px;
   list-style: none;
   margin-left: 80px;
+  margin-top: 16px;
 }
 .modal-footer-input::placeholder {
   color: #ffffff;
@@ -535,9 +538,10 @@ p {
   color: #ffffff;
   cursor: pointer;
   border: none;
+
 }
 .button-footer svg {
-  margin-left: 8px;
+  margin-left: 16px;
 }
 .icon-btn {
   display: flex;
@@ -545,7 +549,7 @@ p {
   align-items: center;
   width: 24px;
   height: 20px;
-  margin-left: 16px;
+  margin-left: 16px; 
 }
 .backdrop {
   position: fixed;
@@ -618,7 +622,7 @@ p {
 }
 
 .modal-form-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 .modal-form-label {
   display: block;
