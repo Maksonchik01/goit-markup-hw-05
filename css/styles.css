@@ -402,8 +402,6 @@ p {
 }
 .footer-wrapper {
   display: flex;
- 
-  
 }
 
 .title-footer {
@@ -469,41 +467,48 @@ p {
 .icon {
   fill: #f4f4fd;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
 }
 
 .icon-footer {
   width: 40px;
   height: 40px;
 }
-
-.modal-footer-wrapper {
-
-}
-.modal-footer-input {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #fff;
-  
-}
-
-.modal-footer {
-  position: absolute;
+.text-subscribe {
+  margin-bottom: 16px;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #ffffff;
+position: absolute;
 margin-left: 80px;
 }
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+
 .modal-footer-input {
+  width: 264px;
+  height: 40px;
   border: 1px solid #fff;
-border-radius: 4px;
-width: 264px;
-height: 40px;
-background: #2e2f42;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-margin-right: 24px;
-margin-top: 16px;
-list-style: none;
-margin-left: 80px;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  border-radius: 4px;
+  margin-right: 24px;
+  margin-top: 16px;
+  list-style: none;
+  margin-left: 80px;
+}
+.modal-footer-input::placeholder {
+  color: #ffffff;
 }
 .modal-footer:focus {
   border: 1px solid #4d5ae5;
@@ -512,21 +517,27 @@ margin-left: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
- margin-top: 16px;
-
+  margin-top: 16px;
 }
 .button-footer {
+  font-family: "Roboto", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 0.04em;
   border-radius: 4px;
   margin-right: 16px;
-padding: 8px 24px;
-width: 165px;
-height: 40px;
-background: #4d5ae5;
-color: #fff;
-cursor: pointer;
+  padding: 8px 24px;
+  min-width: 165px;
+  height: 40px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
+
 }
 .button-footer svg {
   margin-left: 8px;
@@ -537,6 +548,7 @@ cursor: pointer;
   align-items: center;
   width: 24px;
   height: 20px;
+  margin-left: 16px;
 }
 .backdrop {
   position: fixed;
