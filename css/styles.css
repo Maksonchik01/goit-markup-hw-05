@@ -644,6 +644,9 @@ p {
 .modal-form-input:focus + .icon-modal {
   fill: #4d5ae5;
 }
+.modal-form-comment {
+  margin-bottom: 16px;
+}
 .modal-form-input-comment {
   font-size: 12px;
   line-height: 1.16667;
