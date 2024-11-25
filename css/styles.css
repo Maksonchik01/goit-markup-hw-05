@@ -612,7 +612,7 @@ p {
 }
 
 .modal-form-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px; 
 }
 .modal-form-label {
   display: block;
@@ -689,9 +689,10 @@ p {
   color: rgba(46, 47, 66, 0.4);
 }
 input[type='checkbox']:checked + .modal-form-policy-text> .modal-form-checkbox {
-  background-color: #4d5ae5;
+  background-color: #404bbf;;
   border-color: #4d5ae5;
   border: none;
+  fill: #f4f4fd;
 }
 .modal-form-policy {
   margin-bottom: 24px;
